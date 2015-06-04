@@ -1,0 +1,60 @@
+body {
+  
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+}
+#detroitium{
+    position: relative;
+    top:-10%;
+
+}
+#topnavbar{
+    background-color: white;
+}
+#navbarHeader{
+    width:50vw;
+}
+#navImg{
+    width:10%;
+}
+#topNavigationList{
+    top:50%;
+}
+#theFold{
+    padding-top:10%;
+    padding-bottom: 10%;
+    background: url('../images/moreSpace.jpg') no-repeat 50% / cover;
+    color: white;
+}
+#headline{
+    font-size: 7vw;
+    color:white;
+    text-align: center;
+}
+#mission{
+    background-color: white;
+    color: black;
+    padding-top:10%;
+    padding-bottom: 10%;
+}
+
+#features{
+    background-image: url('../images/detroitIndustry.jpg');
+    padding-top:5%;
+    padding-bottom: 5%;
+    
+}
+#partners{
+
+}
+#membership{
+
+}
+#joinus{
+
+}
+.whitebox{
+    border:3px solid black;
+    background-color:white;
+}
+
