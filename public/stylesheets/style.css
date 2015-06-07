@@ -1,12 +1,12 @@
 body {
   
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-
+  height:100%;
 }
 #detroitium{
     position: relative;
-    top:-10%;
-
+    font-weight: bold;
+    color:black;
 }
 #topnavbar{
     background-color: white;
@@ -23,13 +23,20 @@ body {
 #theFold{
     padding-top:10%;
     padding-bottom: 10%;
-    background: url('../images/moreSpace.jpg') no-repeat 50% / cover;
+    background: url('../images/detroitConstruction.jpg') no-repeat 90% / cover;
     color: white;
+    height:100vh;
 }
 #headline{
     font-size: 7vw;
     color:white;
     text-align: center;
+}
+.lightwhiteback{
+    -webkit-text-stroke: 4px black;
+    font-weight: bold;
+        
+
 }
 #mission{
     background-color: white;
@@ -57,4 +64,25 @@ body {
     border:3px solid black;
     background-color:white;
 }
-
+/*To be cleaned*/
+.lineHeightPush, .navbar-nav>li>a{
+    line-height:30px;
+    color:black;
+}
+.brand, .navbar-default .navbar-nav>li>a{
+    color: black;
+}
+input{
+    border:3px solid black;
+}
+.submitButton{
+    height:50%;
+    border:3px solid black;
+    background-color: white;
+}
+.form-group{
+    height:10vh;
+    bottom:0;
+    margin:0;
+}
+/*****/
