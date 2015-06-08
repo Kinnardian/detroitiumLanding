@@ -1,4 +1,4 @@
-body {
+html, body {
   
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   height:100%;
@@ -25,14 +25,26 @@ body {
     padding-bottom: 10%;
     background: url('../images/detroitConstruction.jpg') no-repeat 90% / cover;
     color: white;
-    height:100vh;
+    height:100%;
 }
+#theForm{
+    padding-top:10%;
+    padding-bottom: 10%;
+    background: url('../images/detroitConstruction.jpg') no-repeat 90% / cover;
+    color: black;
+    height:100%;    
+}
+
 #headline{
-    font-size: 7vw;
+    font-size: 6vw;
     color:white;
     text-align: center;
+    margin-top:1vh;
+    padding-left:5vw;
+    padding-right: 5vw; 
+    display:block;
 }
-.lightwhiteback{
+.text-stroke{
     -webkit-text-stroke: 4px black;
     font-weight: bold;
         
@@ -85,4 +97,14 @@ input{
     bottom:0;
     margin:0;
 }
+.mChimp{
+    padding:2vh;
+}
+@media (max-width: 992px) { 
+    .text-stroke{
+        color:white;
+        -webkit-text-stroke:white;
+    }
+ }
+
 /*****/
